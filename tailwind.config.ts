@@ -25,7 +25,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#D4AF37',
+					DEFAULT: '#E8B4B8',
 					foreground: '#000000'
 				},
 				secondary: {
@@ -45,9 +45,9 @@ export default {
 					foreground: '#ffffff'
 				},
 				luxury: {
-					gold: '#D4AF37',
-					darkGold: '#B8941F',
-					lightGold: '#F2E7B3',
+					gold: '#E8B4B8',
+					darkGold: '#D89BA0',
+					lightGold: '#F2E1E3',
 					black: '#0A0A0A',
 					charcoal: '#1C1C1C',
 					cream: '#FFFEF7',
@@ -55,9 +55,9 @@ export default {
 					platinum: '#E8E6E0'
 				},
 				artdeco: {
-					gold: '#D4AF37',
-					darkGold: '#B8941F',
-					bronze: '#CD7F32',
+					gold: '#E8B4B8',
+					darkGold: '#D89BA0',
+					bronze: '#E8B4B8',
 					black: '#0A0A0A',
 					charcoal: '#1C1C1C',
 					ivory: '#FFFFF0',
@@ -160,10 +160,10 @@ export default {
 				},
 				'glow': {
 					'0%, 100%': {
-						textShadow: '0 0 5px #D4AF37, 0 0 10px #D4AF37, 0 0 15px #D4AF37'
+						textShadow: '0 0 5px #E8B4B8, 0 0 10px #E8B4B8, 0 0 15px #E8B4B8'
 					},
 					'50%': {
-						textShadow: '0 0 10px #D4AF37, 0 0 20px #D4AF37, 0 0 30px #D4AF37'
+						textShadow: '0 0 10px #E8B4B8, 0 0 20px #E8B4B8, 0 0 30px #E8B4B8'
 					}
 				}
 			},
@@ -178,17 +178,17 @@ export default {
 			},
 			backgroundImage: {
 				'artdeco-pattern': `
-					radial-gradient(circle at 25% 25%, #D4AF37 2px, transparent 2px),
-					radial-gradient(circle at 75% 75%, #D4AF37 2px, transparent 2px),
-					linear-gradient(45deg, transparent 49%, #D4AF37 49%, #D4AF37 51%, transparent 51%)
+					radial-gradient(circle at 25% 25%, #E8B4B8 2px, transparent 2px),
+					radial-gradient(circle at 75% 75%, #E8B4B8 2px, transparent 2px),
+					linear-gradient(45deg, transparent 49%, #E8B4B8 49%, #E8B4B8 51%, transparent 51%)
 				`,
 				'artdeco-lines': `
 					repeating-linear-gradient(
 						90deg,
 						transparent,
 						transparent 10px,
-						#D4AF37 10px,
-						#D4AF37 11px
+						#E8B4B8 10px,
+						#E8B4B8 11px
 					)
 				`
 			}
