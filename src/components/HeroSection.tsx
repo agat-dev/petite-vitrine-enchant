@@ -162,21 +162,33 @@ const HeroSection = () => {
             <p className="font-source-sans text-lg md:text-xl text-secondary/80 mb-8 leading-relaxed max-w-2xl mx-auto drop-shadow-md">
               {hero.subtitle}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button 
                 onClick={scrollToOffers}
                 size="lg"
-                className="bg-luxury-gold hover:bg-luxury-gold/90 text-luxury-obsidian px-8 py-3 text-lg font-medium shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-luxury-gold/20"
+                className="group relative overflow-hidden bg-gradient-to-r from-luxury-gold via-luxury-gold to-amber-400 hover:from-amber-400 hover:via-luxury-gold hover:to-luxury-gold text-luxury-obsidian px-10 py-4 text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-500 border-0 rounded-full min-w-[200px] hover:scale-105 transform"
               >
-                {hero.cta}
+                <span className="relative z-10 flex items-center gap-2">
+                  {hero.cta}
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-shimmer transition-opacity duration-500"></div>
               </Button>
               <Button 
                 variant="outline"
                 size="lg"
                 onClick={() => window.open(`tel:0673981638`, '_self')}
-                className="border-2 border-luxury-obsidian text-luxury-obsidian hover:bg-luxury-obsidian hover:text-luxury-pearl px-8 py-3 text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
+                className="group relative overflow-hidden border-2 border-luxury-obsidian/20 backdrop-blur-sm bg-white/10 text-luxury-obsidian hover:bg-luxury-obsidian hover:text-white px-10 py-4 text-lg font-medium shadow-xl hover:shadow-2xl transition-all duration-500 rounded-full min-w-[200px] hover:scale-105 transform hover:border-luxury-obsidian"
               >
-                06 73 98 16 38
+                <span className="relative z-10 flex items-center gap-2">
+                  <svg className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  06 73 98 16 38
+                </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-luxury-obsidian/0 via-luxury-obsidian/5 to-luxury-obsidian/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </Button>
             </div>
           </div>
