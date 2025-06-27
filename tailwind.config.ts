@@ -25,7 +25,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#D4B5A0',
+					DEFAULT: '#D4A374',
 					foreground: '#000000'
 				},
 				secondary: {
@@ -45,9 +45,9 @@ export default {
 					foreground: '#ffffff'
 				},
 				luxury: {
-					gold: '#D4B5A0',
-					darkGold: '#C5A690',
-					lightGold: '#E8DDD6',
+					gold: '#D4A374',
+					darkGold: '#C49060',
+					lightGold: '#E8D5C4',
 					black: '#0A0A0A',
 					charcoal: '#1C1C1C',
 					cream: '#FFFEF7',
@@ -55,9 +55,9 @@ export default {
 					platinum: '#E8E6E0'
 				},
 				artdeco: {
-					gold: '#D4B5A0',
-					darkGold: '#C5A690',
-					bronze: '#D4B5A0',
+					gold: '#D4A374',
+					darkGold: '#C49060',
+					bronze: '#D4A374',
 					black: '#0A0A0A',
 					charcoal: '#1C1C1C',
 					ivory: '#FFFFF0',
@@ -160,10 +160,10 @@ export default {
 				},
 				'glow': {
 					'0%, 100%': {
-						textShadow: '0 0 5px #D4B5A0, 0 0 10px #D4B5A0, 0 0 15px #D4B5A0'
+						textShadow: '0 0 5px #D4A374, 0 0 10px #D4A374, 0 0 15px #D4A374'
 					},
 					'50%': {
-						textShadow: '0 0 10px #D4B5A0, 0 0 20px #D4B5A0, 0 0 30px #D4B5A0'
+						textShadow: '0 0 10px #D4A374, 0 0 20px #D4A374, 0 0 30px #D4A374'
 					}
 				},
 				'scroll-slow': {
@@ -196,17 +196,17 @@ export default {
 			},
 			backgroundImage: {
 				'artdeco-pattern': `
-					radial-gradient(circle at 25% 25%, #D4B5A0 2px, transparent 2px),
-					radial-gradient(circle at 75% 75%, #D4B5A0 2px, transparent 2px),
-					linear-gradient(45deg, transparent 49%, #D4B5A0 49%, #D4B5A0 51%, transparent 51%)
+					radial-gradient(circle at 25% 25%, #D4A374 2px, transparent 2px),
+					radial-gradient(circle at 75% 75%, #D4A374 2px, transparent 2px),
+					linear-gradient(45deg, transparent 49%, #D4A374 49%, #D4A374 51%, transparent 51%)
 				`,
 				'artdeco-lines': `
 					repeating-linear-gradient(
 						90deg,
 						transparent,
 						transparent 10px,
-						#D4B5A0 10px,
-						#D4B5A0 11px
+						#D4A374 10px,
+						#D4A374 11px
 					)
 				`
 			}
