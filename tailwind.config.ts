@@ -47,13 +47,11 @@ export default {
 				},
 				luxury: {
 					gold: '#D4AF37',
-					beige: '#FDFCF8',
-					champagne: '#F9F7F4',
+					beige: '#F5F2E8',
+					champagne: '#F7E7CE',
 					platinum: '#E5E4E2',
 					obsidian: '#0B0B0B',
-					pearl: '#FEFEFE',
-					charcoal: '#2C2C2C',
-					slate: '#1F1F1F'
+					pearl: '#F8F6F0'
 				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
@@ -156,7 +154,7 @@ export default {
 				'shimmer': 'shimmer 2s linear infinite'
 			},
 			backgroundImage: {
-				'luxury-gradient': 'linear-gradient(135deg, #FDFCF8 0%, #F9F7F4 40%, #0B0B0B 100%)',
+				'luxury-gradient': 'linear-gradient(135deg, #D4AF37 0%, #F7E7CE 50%, #F5F2E8 100%)',
 				'dark-luxury': 'linear-gradient(135deg, #0B0B0B 0%, #1A1A1A 50%, #2a2a2a 100%)',
 				'shimmer': 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.2), transparent)'
 			}

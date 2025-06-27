@@ -159,14 +159,14 @@ const HeroSection = () => {
             <h1 className="font-montserrat font-bold text-4xl md:text-5xl lg:text-6xl text-luxury-obsidian leading-tight mb-6">
               {hero.title}
             </h1>
-            <p className="font-source-sans text-lg md:text-xl text-luxury-charcoal/80 mb-8 leading-relaxed max-w-2xl mx-auto">
+            <p className="font-source-sans text-lg md:text-xl text-secondary/80 mb-8 leading-relaxed max-w-2xl mx-auto">
               {hero.subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button 
                 onClick={scrollToOffers}
                 size="lg"
-                className="group relative overflow-hidden bg-gradient-to-r from-luxury-gold via-luxury-gold to-amber-400 hover:from-amber-400 hover:via-luxury-gold hover:to-luxury-gold text-white px-10 py-4 text-lg font-semibold transition-all duration-500 border-0 rounded-full min-w-[200px] hover:scale-105 transform"
+                className="group relative overflow-hidden bg-gradient-to-r from-luxury-gold via-luxury-gold to-amber-400 hover:from-amber-400 hover:via-luxury-gold hover:to-luxury-gold text-luxury-obsidian px-10 py-4 text-lg font-semibold transition-all duration-500 border-0 rounded-full min-w-[200px] hover:scale-105 transform"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   {hero.cta}
@@ -180,7 +180,7 @@ const HeroSection = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => window.open(`tel:0673981638`, '_self')}
-                className="group relative overflow-hidden border-2 border-luxury-obsidian backdrop-blur-sm bg-white/20 text-luxury-obsidian hover:bg-luxury-obsidian hover:text-white px-10 py-4 text-lg font-medium transition-all duration-500 rounded-full min-w-[200px] hover:scale-105 transform hover:border-luxury-obsidian"
+                className="group relative overflow-hidden border-2 border-luxury-obsidian/20 backdrop-blur-sm bg-white/10 text-luxury-obsidian hover:bg-luxury-obsidian hover:text-white px-10 py-4 text-lg font-medium transition-all duration-500 rounded-full min-w-[200px] hover:scale-105 transform hover:border-luxury-obsidian"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <svg className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -195,9 +195,9 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Overlay dégradé allégé pour adoucir les images sur les côtés */}
-      <div className="absolute left-0 top-0 w-1/4 h-screen bg-gradient-to-r from-transparent via-luxury-beige/10 to-luxury-beige/30 pointer-events-none"></div>
-      <div className="absolute right-0 top-0 w-1/4 h-screen bg-gradient-to-l from-transparent via-luxury-beige/10 to-luxury-beige/30 pointer-events-none"></div>
+      {/* Overlay dégradé pour adoucir les images sur les côtés */}
+      <div className="absolute left-0 top-0 w-1/4 h-screen bg-gradient-to-r from-transparent via-luxury-champagne/30 to-luxury-champagne/60 pointer-events-none"></div>
+      <div className="absolute right-0 top-0 w-1/4 h-screen bg-gradient-to-l from-transparent via-luxury-champagne/30 to-luxury-champagne/60 pointer-events-none"></div>
     </section>
   );
 };
