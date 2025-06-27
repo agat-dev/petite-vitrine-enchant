@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
@@ -226,7 +225,7 @@ const HeroSection = () => {
           <div className="animate-fade-in">
             {/* Ornements Art Déco */}
             <div className="flex justify-center items-center mb-8">
-              <div className="w-32 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
+              <div className="w-32 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
               {/* Forme géométrique épurée - losange avec lignes intérieures */}
               <div className="relative mx-4">
                 <div className="w-6 h-6 border border-artdeco-gold rotate-45 bg-transparent"></div>
@@ -234,7 +233,7 @@ const HeroSection = () => {
                 <div className="absolute top-1/2 left-1/2 w-2 h-px bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
                 <div className="absolute top-1/2 left-1/2 w-px h-2 bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
               </div>
-              <div className="w-32 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
+              <div className="w-32 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
             </div>
 
             <h1 className="font-poiret font-normal text-2xl md:text-3xl lg:text-4xl text-white leading-tight mb-6 tracking-wide">
@@ -245,13 +244,13 @@ const HeroSection = () => {
             </h1>
             
             <div className="flex justify-center items-center mb-8">
-              <div className="w-24 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
-              {/* Forme géométrique épurée - hexagone stylisé */}
+              <div className="w-24 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
+              {/* Forme géométrique épurée - losange stylisé */}
               <div className="relative mx-3">
                 <div className="w-4 h-4 border border-artdeco-gold transform rotate-45 bg-transparent"></div>
                 <div className="absolute top-1/2 left-1/2 w-1 h-1 bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
               </div>
-              <div className="w-24 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
+              <div className="w-24 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
             </div>
 
             <p className="font-cormorant text-xl md:text-2xl text-artdeco-cream/90 mb-12 leading-relaxed max-w-3xl mx-auto italic">
@@ -289,13 +288,13 @@ const HeroSection = () => {
 
             {/* Ornement final */}
             <div className="flex justify-center items-center mt-12">
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
-              {/* Forme géométrique épurée - triangle stylisé */}
+              <div className="w-16 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
+              {/* Forme géométrique épurée - losange stylisé */}
               <div className="relative mx-2">
-                <div className="w-3 h-3 border-l border-b border-artdeco-gold transform rotate-45 bg-transparent"></div>
+                <div className="w-3 h-3 border border-artdeco-gold transform rotate-45 bg-transparent"></div>
                 <div className="absolute top-1/2 left-1/2 w-px h-px bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
               </div>
-              <div className="w-16 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
+              <div className="w-16 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
             </div>
           </div>
         </div>
