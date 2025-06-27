@@ -1,7 +1,5 @@
 
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { Star, Shield, Clock, Award } from 'lucide-react';
 import content from '@/data/content.json';
 
 const HeroSection = () => {
@@ -15,17 +13,128 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="accueil" className="min-h-screen flex items-center pt-20 bg-gradient-to-br from-success to-white">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="animate-slide-in-left">
+    <section id="accueil" className="min-h-screen flex items-center pt-20 bg-gradient-to-br from-success to-white relative overflow-hidden">
+      {/* Images en maçonnerie - côté gauche */}
+      <div className="absolute left-0 top-0 w-1/4 h-full">
+        <div className="grid grid-cols-2 gap-2 h-full">
+          {/* Colonne 1 */}
+          <div className="space-y-2">
+            <div className="h-32 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=128&fit=crop&crop=face"
+                alt="Artisan"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-48 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=200&h=192&fit=crop"
+                alt="Travail artisanal"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-24 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=96&fit=crop&crop=face"
+                alt="Menuisier"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          
+          {/* Colonne 2 */}
+          <div className="space-y-2 pt-8">
+            <div className="h-24 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=96&fit=crop&crop=face"
+                alt="Céramiste" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-40 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=200&h=160&fit=crop&crop=face"
+                alt="Coiffeuse"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-32 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=128&fit=crop"
+                alt="Atelier artisanal"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Images en maçonnerie - côté droit */}
+      <div className="absolute right-0 top-0 w-1/4 h-full">
+        <div className="grid grid-cols-2 gap-2 h-full">
+          {/* Colonne 1 */}
+          <div className="space-y-2 pt-12">
+            <div className="h-40 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=200&h=160&fit=crop"
+                alt="Ordinateur de travail"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-24 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=200&h=96&fit=crop"
+                alt="Laptop"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-36 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=200&h=144&fit=crop"
+                alt="Femme avec laptop"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          
+          {/* Colonne 2 */}
+          <div className="space-y-2">
+            <div className="h-28 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1500673922987-e212871fec22?w=200&h=112&fit=crop"
+                alt="Ambiance créative"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-44 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=200&h=176&fit=crop"
+                alt="Nature inspiration"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-32 bg-gray-200 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=200&h=128&fit=crop"
+                alt="Architecture moderne"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Contenu central */}
+      <div className="container mx-auto px-4 z-10 relative">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="animate-fade-in">
             <h1 className="font-montserrat font-bold text-4xl md:text-5xl lg:text-6xl text-anthracite leading-tight mb-6">
               {hero.title}
             </h1>
-            <p className="font-source-sans text-lg md:text-xl text-anthracite/80 mb-8 leading-relaxed">
+            <p className="font-source-sans text-lg md:text-xl text-anthracite/80 mb-8 leading-relaxed max-w-2xl mx-auto">
               {hero.subtitle}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 onClick={scrollToOffers}
                 size="lg"
@@ -43,90 +152,12 @@ const HeroSection = () => {
               </Button>
             </div>
           </div>
-          
-          <div className="animate-slide-in-right">
-            {/* Grille asymétrique */}
-            <div className="grid grid-cols-6 grid-rows-4 gap-4 h-[500px]">
-              {/* Photo client fictif - grande carte */}
-              <div className="col-span-4 row-span-3 relative group">
-                <div className="absolute -top-2 -left-2 w-full h-full bg-primary/10 rounded-xl transform rotate-2 transition-transform group-hover:rotate-3"></div>
-                <div className="relative bg-white rounded-xl shadow-xl p-4 h-full flex flex-col justify-between transform hover:scale-105 transition-transform duration-300">
-                  <div className="flex items-center gap-3 mb-4">
-                    <img 
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
-                      alt="Pierre, menuisier satisfait"
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <div>
-                      <div className="font-semibold text-anthracite">Pierre M.</div>
-                      <div className="text-sm text-anthracite/70">Menuisier</div>
-                    </div>
-                  </div>
-                  <div className="flex mb-3">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                  <p className="text-sm text-anthracite/80 italic leading-relaxed">
-                    "Mon nouveau site a transformé mon activité. Plus de visibilité, plus de clients !"
-                  </p>
-                </div>
-              </div>
-
-              {/* Interface de site web fictive */}
-              <div className="col-span-2 row-span-2 relative group">
-                <div className="absolute -top-1 -right-1 w-full h-full bg-secondary/10 rounded-lg transform -rotate-1 transition-transform group-hover:-rotate-2"></div>
-                <div className="relative bg-white rounded-lg shadow-lg p-3 h-full transform hover:scale-105 transition-transform duration-300">
-                  <div className="flex items-center gap-1 mb-2">
-                    <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                    <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="h-2 bg-primary/20 rounded w-3/4"></div>
-                    <div className="h-1 bg-anthracite/10 rounded w-full"></div>
-                    <div className="h-1 bg-anthracite/10 rounded w-2/3"></div>
-                    <div className="flex gap-1 mt-2">
-                      <div className="w-8 h-6 bg-accent/30 rounded"></div>
-                      <div className="w-8 h-6 bg-success/30 rounded"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Badges de qualité */}
-              <div className="col-span-3 row-span-1 flex gap-2">
-                <Badge className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors">
-                  <Shield className="w-3 h-3 mr-1" />
-                  Certifié
-                </Badge>
-                <Badge className="bg-secondary/10 text-secondary border-secondary/20 hover:bg-secondary/20 transition-colors">
-                  <Clock className="w-3 h-3 mr-1" />
-                  Livraison rapide
-                </Badge>
-              </div>
-
-              {/* Badge satisfaction */}
-              <div className="col-span-3 row-span-1 flex justify-end">
-                <Badge className="bg-success/20 text-anthracite border-success/30 hover:bg-success/30 transition-colors">
-                  <Award className="w-3 h-3 mr-1" />
-                  100% Satisfait
-                </Badge>
-              </div>
-
-              {/* Statistique finale */}
-              <div className="col-span-6 row-span-1 flex justify-center">
-                <div className="bg-white/80 backdrop-blur-sm rounded-xl px-6 py-3 shadow-lg border border-primary/10">
-                  <div className="text-center">
-                    <div className="font-bold text-2xl text-primary">150+</div>
-                    <div className="text-sm text-anthracite/70">Artisans accompagnés</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
+
+      {/* Overlay pour adoucir les images sur les côtés */}
+      <div className="absolute left-0 top-0 w-1/4 h-full bg-gradient-to-r from-transparent to-white/60 pointer-events-none"></div>
+      <div className="absolute right-0 top-0 w-1/4 h-full bg-gradient-to-l from-transparent to-white/60 pointer-events-none"></div>
     </section>
   );
 };
