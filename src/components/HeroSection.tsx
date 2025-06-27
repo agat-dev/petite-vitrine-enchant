@@ -154,7 +154,7 @@ const HeroSection = () => {
 
       {/* Contenu central */}
       <div className="container mx-auto px-4 z-10 relative">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center px-8 md:px-16 lg:px-24">
           <div className="animate-fade-in">
             <h1 className="font-montserrat font-bold text-4xl md:text-5xl lg:text-6xl text-anthracite leading-tight mb-6">
               {hero.title}
