@@ -1,5 +1,4 @@
 
-
 import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
@@ -226,9 +225,15 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center px-8 md:px-16 lg:px-24">
           <div className="animate-fade-in">
             {/* Ornements Art Déco */}
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center items-center mb-8">
               <div className="w-32 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
-              <div className="w-2 h-2 bg-artdeco-gold rounded-full mx-4 mt-[-4px]"></div>
+              {/* Forme géométrique épurée - losange avec lignes intérieures */}
+              <div className="relative mx-4">
+                <div className="w-6 h-6 border border-artdeco-gold rotate-45 bg-transparent"></div>
+                <div className="absolute inset-0 w-6 h-6 border-t border-r border-artdeco-gold rotate-45 transform translate-x-0.5 translate-y-0.5 opacity-60"></div>
+                <div className="absolute top-1/2 left-1/2 w-2 h-px bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+                <div className="absolute top-1/2 left-1/2 w-px h-2 bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+              </div>
               <div className="w-32 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
             </div>
 
@@ -239,9 +244,13 @@ const HeroSection = () => {
               {hero.title}
             </h1>
             
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center items-center mb-8">
               <div className="w-24 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
-              <div className="w-1 h-1 bg-artdeco-gold rounded-full mx-3 mt-[-2px]"></div>
+              {/* Forme géométrique épurée - hexagone stylisé */}
+              <div className="relative mx-3">
+                <div className="w-4 h-4 border border-artdeco-gold transform rotate-45 bg-transparent"></div>
+                <div className="absolute top-1/2 left-1/2 w-1 h-1 bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+              </div>
               <div className="w-24 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
             </div>
 
@@ -279,9 +288,13 @@ const HeroSection = () => {
             </div>
 
             {/* Ornement final */}
-            <div className="flex justify-center mt-12">
+            <div className="flex justify-center items-center mt-12">
               <div className="w-16 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
-              <div className="w-1 h-1 bg-artdeco-gold rounded-full mx-2 mt-[-2px]"></div>
+              {/* Forme géométrique épurée - triangle stylisé */}
+              <div className="relative mx-2">
+                <div className="w-3 h-3 border-l border-b border-artdeco-gold transform rotate-45 bg-transparent"></div>
+                <div className="absolute top-1/2 left-1/2 w-px h-px bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+              </div>
               <div className="w-16 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
             </div>
           </div>
@@ -296,4 +309,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
