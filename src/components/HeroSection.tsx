@@ -1,4 +1,5 @@
 
+
 import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
@@ -23,10 +24,10 @@ const HeroSection = () => {
       </div>
 
       {/* Images en maçonnerie - côté gauche */}
-      <div className="absolute left-0 top-0 w-1/4 h-screen opacity-60">
+      <div className="absolute left-0 top-0 w-1/4 h-screen opacity-60 overflow-hidden">
         <div className="grid grid-cols-2 gap-2 h-full py-4">
           {/* Colonne 1 */}
-          <div className="space-y-2">
+          <div className="space-y-2 animate-scroll-slow">
             <div className="h-40 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
                 src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&h=160&fit=crop"
@@ -55,10 +56,25 @@ const HeroSection = () => {
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
             </div>
+            {/* Duplication pour l'effet infini */}
+            <div className="h-40 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&h=160&fit=crop"
+                alt="Salon de coiffure moderne"
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
+            <div className="h-56 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=200&h=224&fit=crop"
+                alt="Coiffure créative"
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
           </div>
           
           {/* Colonne 2 */}
-          <div className="space-y-2 pt-8">
+          <div className="space-y-2 pt-8 animate-scroll-slow-reverse">
             <div className="h-28 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
                 src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=200&h=112&fit=crop"
@@ -87,15 +103,30 @@ const HeroSection = () => {
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
             </div>
+            {/* Duplication pour l'effet infini */}
+            <div className="h-28 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=200&h=112&fit=crop"
+                alt="Produits capillaires" 
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
+            <div className="h-52 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=200&h=208&fit=crop"
+                alt="Coloration cheveux"
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       {/* Images en maçonnerie - côté droit */}
-      <div className="absolute right-0 top-0 w-1/4 h-screen opacity-60">
+      <div className="absolute right-0 top-0 w-1/4 h-screen opacity-60 overflow-hidden">
         <div className="grid grid-cols-2 gap-2 h-full py-4">
           {/* Colonne 1 */}
-          <div className="space-y-2 pt-12">
+          <div className="space-y-2 pt-12 animate-scroll-slow">
             <div className="h-48 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
                 src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=200&h=192&fit=crop"
@@ -124,10 +155,25 @@ const HeroSection = () => {
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
             </div>
+            {/* Duplication pour l'effet infini */}
+            <div className="h-48 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=200&h=192&fit=crop"
+                alt="Salon élégant"
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
+            <div className="h-32 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=128&fit=crop"
+                alt="Outils de coiffure"
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
           </div>
           
           {/* Colonne 2 */}
-          <div className="space-y-2">
+          <div className="space-y-2 animate-scroll-slow-reverse">
             <div className="h-36 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
                 src="https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=200&h=144&fit=crop"
@@ -153,6 +199,21 @@ const HeroSection = () => {
               <img 
                 src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=200&h=112&fit=crop"
                 alt="Ambiance salon"
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
+            {/* Duplication pour l'effet infini */}
+            <div className="h-36 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=200&h=144&fit=crop"
+                alt="Coiffure mariage"
+                className="w-full h-full object-cover filter grayscale contrast-125"
+              />
+            </div>
+            <div className="h-52 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
+              <img 
+                src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=200&h=208&fit=crop"
+                alt="Cheveux longs brillants"
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
             </div>
@@ -235,3 +296,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

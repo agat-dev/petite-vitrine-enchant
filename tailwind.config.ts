@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -165,6 +166,22 @@ export default {
 					'50%': {
 						textShadow: '0 0 10px #E8B4B8, 0 0 20px #E8B4B8, 0 0 30px #E8B4B8'
 					}
+				},
+				'scroll-slow': {
+					'0%': {
+						transform: 'translateY(0)'
+					},
+					'100%': {
+						transform: 'translateY(-50%)'
+					}
+				},
+				'scroll-slow-reverse': {
+					'0%': {
+						transform: 'translateY(-50%)'
+					},
+					'100%': {
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
@@ -174,7 +191,9 @@ export default {
 				'slide-in-left': 'slide-in-left 0.6s ease-out',
 				'slide-in-right': 'slide-in-right 0.6s ease-out',
 				'shimmer': 'shimmer 2s linear infinite',
-				'glow': 'glow 2s ease-in-out infinite'
+				'glow': 'glow 2s ease-in-out infinite',
+				'scroll-slow': 'scroll-slow 60s linear infinite',
+				'scroll-slow-reverse': 'scroll-slow-reverse 60s linear infinite'
 			},
 			backgroundImage: {
 				'artdeco-pattern': `
@@ -196,3 +215,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
