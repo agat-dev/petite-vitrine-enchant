@@ -51,14 +51,26 @@ const ServicesSection = () => {
           {pillars.map((pillar, index) => (
             <div 
               key={index}
-              className="text-center group hover:transform hover:scale-105 transition-all duration-500 animate-fade-in bg-artdeco-charcoal/30 backdrop-blur-sm border border-artdeco-gold/20 p-8 rounded-none"
+              className="text-center group hover:transform hover:scale-105 transition-all duration-500 animate-fade-in bg-artdeco-charcoal/30 backdrop-blur-sm border border-artdeco-gold/20 p-8 rounded-none overflow-hidden"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <div className="bg-artdeco-gold/10 w-20 h-20 border border-artdeco-gold/30 flex items-center justify-center mx-auto mb-6 group-hover:bg-artdeco-gold/20 transition-all duration-300 transform rotate-45">
-                <div className="text-artdeco-gold group-hover:text-artdeco-gold transition-colors transform -rotate-45">
-                  {getIcon(pillar.icon)}
+              {/* Image de fond avec overlay */}
+              <div className="relative mb-6 h-48 -mx-8 -mt-8 mb-8 overflow-hidden">
+                <img 
+                  src={pillar.image}
+                  alt={pillar.title}
+                  className="w-full h-full object-cover filter grayscale contrast-125 group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-artdeco-black/60"></div>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="bg-artdeco-gold/10 w-20 h-20 border border-artdeco-gold/30 flex items-center justify-center group-hover:bg-artdeco-gold/20 transition-all duration-300 transform rotate-45">
+                    <div className="text-artdeco-gold group-hover:text-artdeco-gold transition-colors transform -rotate-45">
+                      {getIcon(pillar.icon)}
+                    </div>
+                  </div>
                 </div>
               </div>
+              
               <h3 className="font-cinzel font-medium text-xl text-artdeco-cream mb-4 tracking-wide">
                 {pillar.title}
               </h3>

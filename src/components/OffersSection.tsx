@@ -1,7 +1,6 @@
 
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
 const OffersSection = () => {
@@ -36,83 +35,84 @@ const OffersSection = () => {
           </div>
 
           <h2 className="font-cinzel font-normal text-3xl md:text-4xl text-artdeco-cream mb-6 tracking-wide">
-            Des tarifs transparents et accessibles
+            Nos Forfaits Beauté
           </h2>
           <p className="font-cormorant text-xl text-artdeco-cream/80 max-w-2xl mx-auto italic leading-relaxed">
-            Choisissez la formule qui correspond à vos besoins et à votre budget
+            Des prestations sur mesure pour révéler votre beauté naturelle
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {offers.map((offer, index) => (
-            <Card 
+            <div 
               key={index}
-              className={`relative hover:shadow-2xl transition-all duration-500 animate-fade-in bg-artdeco-black/50 backdrop-blur-sm border-artdeco-gold/30 rounded-none ${
-                offer.popular ? 'border-artdeco-gold border-2 transform md:scale-105' : 'border-artdeco-gold/20'
+              className={`relative p-8 bg-artdeco-black/50 backdrop-blur-sm border transition-all duration-500 hover:transform hover:scale-105 animate-fade-in ${
+                offer.popular 
+                  ? 'border-artdeco-gold bg-artdeco-gold/5' 
+                  : 'border-artdeco-gold/30'
               }`}
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               {offer.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-artdeco-gold text-artdeco-black px-6 py-2 text-sm font-montserrat font-medium tracking-wide uppercase">
+                  <div className="bg-artdeco-gold text-artdeco-black px-6 py-2 font-cinzel font-medium text-sm tracking-wide uppercase">
                     Le plus populaire
-                  </span>
+                  </div>
                 </div>
               )}
-              
-              <CardHeader className="text-center pb-4">
-                <CardTitle className="font-cinzel font-medium text-2xl text-artdeco-cream tracking-wide">
-                  {offer.name}
-                </CardTitle>
-                <div className="mt-4">
-                  <span className="font-poiret font-normal text-4xl text-artdeco-gold">
-                    {offer.price}
-                  </span>
-                  <span className="text-artdeco-cream/70 ml-2 font-cormorant">TTC</span>
-                </div>
-                <p className="font-cormorant text-artdeco-cream/70 mt-2 italic">
-                  {offer.description}
-                </p>
-              </CardHeader>
-              
-              <CardContent>
-                <ul className="space-y-3 mb-8">
-                  {offer.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center space-x-3">
-                      <Check className="w-5 h-5 text-artdeco-gold flex-shrink-0" />
-                      <span className="font-cormorant text-artdeco-cream/80">
-                        {feature}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                
-                <Button 
-                  onClick={scrollToContact}
-                  className={`w-full py-4 font-montserrat font-medium tracking-wide uppercase transition-all duration-500 rounded-none ${
-                    offer.popular 
-                      ? 'bg-artdeco-gold hover:bg-artdeco-darkGold text-artdeco-black border border-artdeco-gold hover:border-artdeco-darkGold' 
-                      : 'bg-transparent border-2 border-artdeco-gold text-artdeco-gold hover:bg-artdeco-gold hover:text-artdeco-black'
-                  }`}
-                >
-                  Choisir cette formule
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
 
-        <div className="text-center mt-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-          <p className="font-cormorant text-artdeco-cream/70 mb-4 italic text-lg">
-            Besoin d'options supplémentaires ? Parlons-en !
-          </p>
-          <Button 
-            variant="outline"
-            onClick={scrollToContact}
-            className="border-artdeco-gold text-artdeco-gold hover:bg-artdeco-gold hover:text-artdeco-black bg-transparent rounded-none px-8 py-4 font-montserrat tracking-wide uppercase transition-all duration-500"
-          >
-            Demander un devis personnalisé
-          </Button>
+              {/* Image de l'offre */}
+              <div className="relative h-48 -mx-8 -mt-8 mb-8 overflow-hidden">
+                <img 
+                  src={offer.image}
+                  alt={offer.name}
+                  className="w-full h-full object-cover filter grayscale contrast-125"
+                />
+                <div className="absolute inset-0 bg-artdeco-black/40"></div>
+                <div className="absolute bottom-4 left-8">
+                  <div className="text-artdeco-gold font-poiret text-4xl font-normal">
+                    {offer.price}
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="font-cinzel font-medium text-2xl text-artdeco-cream mb-3 tracking-wide">
+                {offer.name}
+              </h3>
+              <p className="font-cormorant text-artdeco-cream/70 mb-6 italic leading-relaxed">
+                {offer.description}
+              </p>
+
+              <ul className="space-y-3 mb-8">
+                {offer.features.map((feature, featureIndex) => (
+                  <li key={featureIndex} className="flex items-start gap-3">
+                    <div className="bg-artdeco-gold/20 border border-artdeco-gold/30 w-5 h-5 flex items-center justify-center mt-0.5 transform rotate-45">
+                      <Check className="w-3 h-3 text-artdeco-gold transform -rotate-45" />
+                    </div>
+                    <span className="font-cormorant text-artdeco-cream/80 italic">
+                      {feature}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              <Button 
+                onClick={scrollToContact}
+                className={`w-full group relative overflow-hidden px-8 py-6 text-lg font-normal transition-all duration-500 border rounded-none min-h-[60px] hover:scale-105 transform font-montserrat tracking-wide uppercase ${
+                  offer.popular
+                    ? 'bg-artdeco-gold hover:bg-artdeco-darkGold text-artdeco-black border-artdeco-gold hover:border-artdeco-darkGold'
+                    : 'bg-transparent border-artdeco-gold text-artdeco-gold hover:bg-artdeco-gold hover:text-artdeco-black'
+                }`}
+              >
+                <span className="relative z-10 flex items-center justify-center gap-3">
+                  Réserver ce forfait
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+              </Button>
+            </div>
+          ))}
         </div>
 
         {/* Ornement final */}
