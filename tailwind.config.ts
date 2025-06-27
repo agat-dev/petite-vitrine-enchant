@@ -26,24 +26,32 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#E55050',
-					foreground: '#ffffff'
+					DEFAULT: '#D4AF37',
+					foreground: '#000000'
 				},
 				secondary: {
-					DEFAULT: '#732255',
+					DEFAULT: '#1A1A1A',
 					foreground: '#ffffff'
 				},
 				accent: {
-					DEFAULT: '#B2C6D5',
+					DEFAULT: '#F5F5DC',
 					foreground: '#1a1a1a'
 				},
 				success: {
-					DEFAULT: '#E7F2E4',
+					DEFAULT: '#FDF6E3',
 					foreground: '#1a1a1a'
 				},
 				anthracite: {
 					DEFAULT: '#2a2a2a',
 					foreground: '#ffffff'
+				},
+				luxury: {
+					gold: '#D4AF37',
+					rose: '#E8B4B8',
+					champagne: '#F7E7CE',
+					platinum: '#E5E4E2',
+					obsidian: '#0B0B0B',
+					pearl: '#F8F6F0'
 				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
@@ -127,6 +135,14 @@ export default {
 						opacity: '1',
 						transform: 'translateX(0)'
 					}
+				},
+				'shimmer': {
+					'0%': {
+						backgroundPosition: '-200% 0'
+					},
+					'100%': {
+						backgroundPosition: '200% 0'
+					}
 				}
 			},
 			animation: {
@@ -134,7 +150,13 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
 				'slide-in-left': 'slide-in-left 0.6s ease-out',
-				'slide-in-right': 'slide-in-right 0.6s ease-out'
+				'slide-in-right': 'slide-in-right 0.6s ease-out',
+				'shimmer': 'shimmer 2s linear infinite'
+			},
+			backgroundImage: {
+				'luxury-gradient': 'linear-gradient(135deg, #D4AF37 0%, #F7E7CE 50%, #E8B4B8 100%)',
+				'dark-luxury': 'linear-gradient(135deg, #0B0B0B 0%, #1A1A1A 50%, #2a2a2a 100%)',
+				'shimmer': 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.2), transparent)'
 			}
 		}
 	},
