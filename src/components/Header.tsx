@@ -14,14 +14,14 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
+    <header className="fixed top-0 w-full bg-artdeco-black/95 backdrop-blur-sm border-b border-artdeco-gold/20 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">LV</span>
+          <div className="flex items-center space-x-3">
+            <div className="w-10 h-10 bg-artdeco-gold border border-artdeco-gold transform rotate-45 flex items-center justify-center">
+              <span className="text-artdeco-black font-cinzel font-bold text-lg transform -rotate-45">LV</span>
             </div>
-            <span className="font-montserrat font-bold text-xl text-anthracite">
+            <span className="font-cinzel font-medium text-xl text-artdeco-cream tracking-wide">
               La Petite Vitrine
             </span>
           </div>
@@ -30,37 +30,37 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('accueil')}
-              className="text-anthracite hover:text-primary transition-colors font-source-sans"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
             >
               Accueil
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-anthracite hover:text-primary transition-colors font-source-sans"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('offres')}
-              className="text-anthracite hover:text-primary transition-colors font-source-sans"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
             >
               Tarifs
             </button>
             <button 
               onClick={() => scrollToSection('realisations')}
-              className="text-anthracite hover:text-primary transition-colors font-source-sans"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
             >
               Réalisations
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-anthracite hover:text-primary transition-colors font-source-sans"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
             >
               Contact
             </button>
             <Button 
               onClick={() => scrollToSection('contact')}
-              className="bg-primary hover:bg-primary/90 text-white"
+              className="bg-artdeco-gold hover:bg-artdeco-darkGold text-artdeco-black font-montserrat font-medium tracking-wide uppercase px-6 py-2 rounded-none border border-artdeco-gold hover:border-artdeco-darkGold transition-all duration-300"
             >
               Devis Gratuit
             </Button>
@@ -71,49 +71,49 @@ const Header = () => {
             className="md:hidden flex flex-col space-y-1"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <span className="w-6 h-0.5 bg-anthracite transition-all"></span>
-            <span className="w-6 h-0.5 bg-anthracite transition-all"></span>
-            <span className="w-6 h-0.5 bg-anthracite transition-all"></span>
+            <span className="w-6 h-0.5 bg-artdeco-gold transition-all"></span>
+            <span className="w-6 h-0.5 bg-artdeco-gold transition-all"></span>
+            <span className="w-6 h-0.5 bg-artdeco-gold transition-all"></span>
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 border-t border-gray-200 pt-4">
+          <nav className="md:hidden mt-4 pb-4 border-t border-artdeco-gold/20 pt-4 bg-artdeco-black/95 backdrop-blur-sm">
             <div className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('accueil')}
-                className="text-anthracite hover:text-primary transition-colors font-source-sans text-left"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
               >
                 Accueil
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-anthracite hover:text-primary transition-colors font-source-sans text-left"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
               >
                 Services
               </button>
               <button 
                 onClick={() => scrollToSection('offres')}
-                className="text-anthracite hover:text-primary transition-colors font-source-sans text-left"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
               >
                 Tarifs
               </button>
               <button 
                 onClick={() => scrollToSection('realisations')}
-                className="text-anthracite hover:text-primary transition-colors font-source-sans text-left"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
               >
                 Réalisations
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-anthracite hover:text-primary transition-colors font-source-sans text-left"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
               >
                 Contact
               </button>
               <Button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-primary hover:bg-primary/90 text-white w-fit"
+                className="bg-artdeco-gold hover:bg-artdeco-darkGold text-artdeco-black w-fit font-montserrat font-medium tracking-wide uppercase px-6 py-2 rounded-none border border-artdeco-gold hover:border-artdeco-darkGold transition-all duration-300"
               >
                 Devis Gratuit
               </Button>

@@ -46,13 +46,30 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-success to-accent/20">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="py-20 bg-artdeco-charcoal relative overflow-hidden">
+      {/* Motifs Art Déco en arrière-plan */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute top-0 left-0 w-full h-full bg-artdeco-pattern bg-repeat"></div>
+        <div className="absolute top-1/4 right-1/4 w-32 h-32 border border-artdeco-gold/20 rotate-45"></div>
+        <div className="absolute bottom-1/3 left-1/4 w-24 h-24 border border-artdeco-gold/20 rotate-12"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-montserrat font-bold text-3xl md:text-4xl text-anthracite mb-4">
+          {/* Ornement supérieur */}
+          <div className="flex justify-center items-center mb-8">
+            <div className="w-24 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
+            <div className="relative mx-3">
+              <div className="w-4 h-4 border border-artdeco-gold rotate-45 bg-transparent"></div>
+              <div className="absolute top-1/2 left-1/2 w-px h-px rounded-full bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+            </div>
+            <div className="w-24 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
+          </div>
+
+          <h2 className="font-cinzel font-normal text-3xl md:text-4xl text-artdeco-cream mb-6 tracking-wide">
             Discutons de votre projet
           </h2>
-          <p className="font-source-sans text-lg text-anthracite/70 max-w-2xl mx-auto">
+          <p className="font-cormorant text-xl text-artdeco-cream/80 max-w-2xl mx-auto italic leading-relaxed">
             Un projet en tête ? Une question ? Contactons-nous pour un échange personnalisé
           </p>
         </div>
@@ -60,24 +77,24 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Informations de contact */}
           <div className="animate-slide-in-left">
-            <Card className="h-full border-0 shadow-xl">
+            <Card className="h-full border-artdeco-gold/20 bg-artdeco-black/30 backdrop-blur-sm rounded-none">
               <CardHeader>
-                <CardTitle className="font-montserrat font-bold text-2xl text-anthracite">
+                <CardTitle className="font-cinzel font-medium text-2xl text-artdeco-cream tracking-wide">
                   Parlons de votre projet
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-lg">
-                    <Phone className="w-6 h-6 text-primary" />
+                  <div className="bg-artdeco-gold/10 p-3 border border-artdeco-gold/30 transform rotate-45">
+                    <Phone className="w-6 h-6 text-artdeco-gold transform -rotate-45" />
                   </div>
                   <div>
-                    <div className="font-source-sans font-semibold text-anthracite">
+                    <div className="font-cinzel font-medium text-artdeco-cream tracking-wide">
                       Téléphone
                     </div>
                     <a 
                       href={`tel:${contact.phone.replace(/\s/g, '')}`}
-                      className="font-source-sans text-primary hover:underline"
+                      className="font-cormorant text-artdeco-gold hover:text-artdeco-darkGold transition-colors"
                     >
                       {contact.phone}
                     </a>
@@ -85,16 +102,16 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-lg">
-                    <Mail className="w-6 h-6 text-primary" />
+                  <div className="bg-artdeco-gold/10 p-3 border border-artdeco-gold/30 transform rotate-45">
+                    <Mail className="w-6 h-6 text-artdeco-gold transform -rotate-45" />
                   </div>
                   <div>
-                    <div className="font-source-sans font-semibold text-anthracite">
+                    <div className="font-cinzel font-medium text-artdeco-cream tracking-wide">
                       Email
                     </div>
                     <a 
                       href={`mailto:${contact.email}`}
-                      className="font-source-sans text-primary hover:underline"
+                      className="font-cormorant text-artdeco-gold hover:text-artdeco-darkGold transition-colors"
                     >
                       {contact.email}
                     </a>
@@ -102,44 +119,44 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-lg">
-                    <MapPin className="w-6 h-6 text-primary" />
+                  <div className="bg-artdeco-gold/10 p-3 border border-artdeco-gold/30 transform rotate-45">
+                    <MapPin className="w-6 h-6 text-artdeco-gold transform -rotate-45" />
                   </div>
                   <div>
-                    <div className="font-source-sans font-semibold text-anthracite">
+                    <div className="font-cinzel font-medium text-artdeco-cream tracking-wide">
                       Localisation
                     </div>
-                    <div className="font-source-sans text-anthracite/70">
+                    <div className="font-cormorant text-artdeco-cream/70 italic">
                       {contact.location}
                     </div>
-                    <div className="font-source-sans text-sm text-primary">
+                    <div className="font-cormorant text-sm text-artdeco-gold italic">
                       {contact.zone}
                     </div>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-lg">
-                    <Clock className="w-6 h-6 text-primary" />
+                  <div className="bg-artdeco-gold/10 p-3 border border-artdeco-gold/30 transform rotate-45">
+                    <Clock className="w-6 h-6 text-artdeco-gold transform -rotate-45" />
                   </div>
                   <div>
-                    <div className="font-source-sans font-semibold text-anthracite">
+                    <div className="font-cinzel font-medium text-artdeco-cream tracking-wide">
                       Disponibilité
                     </div>
-                    <div className="font-source-sans text-anthracite/70">
+                    <div className="font-cormorant text-artdeco-cream/70 italic">
                       Lun - Ven : 9h - 18h
                     </div>
-                    <div className="font-source-sans text-sm text-primary">
+                    <div className="font-cormorant text-sm text-artdeco-gold italic">
                       Réponse sous 24h garantie
                     </div>
                   </div>
                 </div>
 
-                <div className="bg-accent/20 p-4 rounded-lg mt-8">
-                  <h3 className="font-montserrat font-semibold text-anthracite mb-2">
+                <div className="bg-artdeco-gold/10 p-6 border border-artdeco-gold/20 mt-8">
+                  <h3 className="font-cinzel font-medium text-artdeco-cream mb-2 tracking-wide">
                     Devis gratuit et sans engagement
                   </h3>
-                  <p className="font-source-sans text-sm text-anthracite/70">
+                  <p className="font-cormorant text-artdeco-cream/70 italic">
                     Nous étudions votre projet et vous proposons une solution adaptée à vos besoins et votre budget.
                   </p>
                 </div>
@@ -149,9 +166,9 @@ const ContactSection = () => {
 
           {/* Formulaire de contact */}
           <div className="animate-slide-in-right">
-            <Card className="border-0 shadow-xl">
+            <Card className="border-artdeco-gold/20 bg-artdeco-black/30 backdrop-blur-sm rounded-none">
               <CardHeader>
-                <CardTitle className="font-montserrat font-bold text-2xl text-anthracite">
+                <CardTitle className="font-cinzel font-medium text-2xl text-artdeco-cream tracking-wide">
                   Envoyez-nous un message
                 </CardTitle>
               </CardHeader>
@@ -165,7 +182,7 @@ const ContactSection = () => {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        className="font-source-sans"
+                        className="font-cormorant bg-artdeco-charcoal/50 border-artdeco-gold/30 text-artdeco-cream placeholder:text-artdeco-cream/50 rounded-none focus:border-artdeco-gold"
                       />
                     </div>
                     <div>
@@ -176,7 +193,7 @@ const ContactSection = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="font-source-sans"
+                        className="font-cormorant bg-artdeco-charcoal/50 border-artdeco-gold/30 text-artdeco-cream placeholder:text-artdeco-cream/50 rounded-none focus:border-artdeco-gold"
                       />
                     </div>
                   </div>
@@ -189,7 +206,7 @@ const ContactSection = () => {
                         placeholder="Votre téléphone"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="font-source-sans"
+                        className="font-cormorant bg-artdeco-charcoal/50 border-artdeco-gold/30 text-artdeco-cream placeholder:text-artdeco-cream/50 rounded-none focus:border-artdeco-gold"
                       />
                     </div>
                     <div>
@@ -198,7 +215,7 @@ const ContactSection = () => {
                         placeholder="Votre activité"
                         value={formData.business}
                         onChange={handleChange}
-                        className="font-source-sans"
+                        className="font-cormorant bg-artdeco-charcoal/50 border-artdeco-gold/30 text-artdeco-cream placeholder:text-artdeco-cream/50 rounded-none focus:border-artdeco-gold"
                       />
                     </div>
                   </div>
@@ -211,13 +228,13 @@ const ContactSection = () => {
                       onChange={handleChange}
                       rows={5}
                       required
-                      className="font-source-sans"
+                      className="font-cormorant bg-artdeco-charcoal/50 border-artdeco-gold/30 text-artdeco-cream placeholder:text-artdeco-cream/50 rounded-none focus:border-artdeco-gold"
                     />
                   </div>
 
                   <Button 
                     type="submit"
-                    className="w-full bg-primary hover:bg-primary/90 text-white py-3 font-medium"
+                    className="w-full bg-artdeco-gold hover:bg-artdeco-darkGold text-artdeco-black py-4 font-montserrat font-medium tracking-wide uppercase transition-all duration-500 rounded-none border border-artdeco-gold hover:border-artdeco-darkGold"
                   >
                     Envoyer le message
                   </Button>
@@ -225,6 +242,16 @@ const ContactSection = () => {
               </CardContent>
             </Card>
           </div>
+        </div>
+
+        {/* Ornement final */}
+        <div className="flex justify-center items-center mt-16">
+          <div className="w-16 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
+          <div className="relative mx-2">
+            <div className="w-3 h-3 border border-artdeco-gold transform rotate-45 bg-transparent"></div>
+            <div className="absolute top-1/2 left-1/2 w-px h-px rounded-full bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+          </div>
+          <div className="w-16 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
         </div>
       </div>
     </section>

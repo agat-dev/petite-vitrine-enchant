@@ -28,13 +28,30 @@ const ShowcaseSection = () => {
   ];
 
   return (
-    <section id="realisations" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="realisations" className="py-20 bg-artdeco-black relative overflow-hidden">
+      {/* Motifs Art Déco en arrière-plan */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute top-0 left-0 w-full h-full bg-artdeco-pattern bg-repeat"></div>
+        <div className="absolute top-1/4 left-1/3 w-28 h-28 border border-artdeco-gold/20 rotate-45"></div>
+        <div className="absolute bottom-1/3 right-1/4 w-20 h-20 border border-artdeco-gold/20 rotate-12"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-montserrat font-bold text-3xl md:text-4xl text-anthracite mb-4">
+          {/* Ornement supérieur */}
+          <div className="flex justify-center items-center mb-8">
+            <div className="w-24 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
+            <div className="relative mx-3">
+              <div className="w-4 h-4 border border-artdeco-gold rotate-45 bg-transparent"></div>
+              <div className="absolute top-1/2 left-1/2 w-px h-px rounded-full bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+            </div>
+            <div className="w-24 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
+          </div>
+
+          <h2 className="font-cinzel font-normal text-3xl md:text-4xl text-artdeco-cream mb-6 tracking-wide">
             Nos Réalisations
           </h2>
-          <p className="font-source-sans text-lg text-anthracite/70 max-w-2xl mx-auto">
+          <p className="font-cormorant text-xl text-artdeco-cream/80 max-w-2xl mx-auto italic leading-relaxed">
             Découvrez quelques-unes de nos créations qui illustrent notre savoir-faire
           </p>
         </div>
@@ -46,33 +63,43 @@ const ShowcaseSection = () => {
               className="group cursor-pointer animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="relative overflow-hidden rounded-xl shadow-lg">
+              <div className="relative overflow-hidden border border-artdeco-gold/20 bg-artdeco-charcoal/30 backdrop-blur-sm">
                 <img 
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500 filter grayscale contrast-125"
                 />
-                <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <div className="text-center text-white p-4">
-                    <h4 className="font-montserrat font-semibold text-lg mb-2">
+                <div className="absolute inset-0 bg-artdeco-gold/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+                  <div className="text-center text-artdeco-black p-4">
+                    <h4 className="font-cinzel font-medium text-lg mb-2 tracking-wide">
                       {item.title}
                     </h4>
-                    <p className="font-source-sans text-sm">
+                    <p className="font-cormorant text-sm italic">
                       {item.description}
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="mt-4">
-                <h3 className="font-montserrat font-semibold text-anthracite mb-1">
+              <div className="mt-4 p-4 bg-artdeco-charcoal/20 border border-artdeco-gold/10">
+                <h3 className="font-cinzel font-medium text-artdeco-cream mb-1 tracking-wide">
                   {item.title}
                 </h3>
-                <p className="font-source-sans text-sm text-primary font-medium">
+                <p className="font-cormorant text-sm text-artdeco-gold font-medium italic">
                   {item.category}
                 </p>
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Ornement final */}
+        <div className="flex justify-center items-center mt-16">
+          <div className="w-16 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
+          <div className="relative mx-2">
+            <div className="w-3 h-3 border border-artdeco-gold transform rotate-45 bg-transparent"></div>
+            <div className="absolute top-1/2 left-1/2 w-px h-px rounded-full bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
+          </div>
+          <div className="w-16 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
         </div>
       </div>
     </section>
