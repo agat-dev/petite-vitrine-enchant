@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
@@ -274,7 +275,7 @@ const HeroSection = () => {
               </Button>
             </div>
 
-            {/* Ornement final */}
+            {/* Ornement final - Ligne inférieure recentrée */}
             <div className="flex justify-center items-center mt-12">
               <div className="w-16 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
               {/* Forme géométrique épurée - losange stylisé */}
