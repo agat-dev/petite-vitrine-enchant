@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
@@ -170,7 +171,7 @@ const HeroSection = () => {
               <div className="w-32 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
             </div>
 
-            <h1 className="font-poiret font-normal text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-6 tracking-wide">
+            <h1 className="font-poiret font-normal text-2xl md:text-3xl lg:text-4xl text-white leading-tight mb-6 tracking-wide">
               <span className="block mb-2 text-artdeco-cream font-cinzel text-lg md:text-xl font-normal tracking-[0.3em] uppercase">
                 Excellence & Raffinement
               </span>
@@ -191,7 +192,7 @@ const HeroSection = () => {
               <Button 
                 onClick={scrollToOffers}
                 size="lg"
-                className="group relative overflow-hidden bg-artdeco-gold hover:bg-artdeco-darkGold text-artdeco-black px-12 py-6 text-lg font-semibold transition-all duration-500 border-2 border-artdeco-gold hover:border-artdeco-darkGold rounded-none min-w-[220px] hover:scale-105 transform font-montserrat tracking-wide uppercase"
+                className="group relative overflow-hidden bg-artdeco-gold hover:bg-artdeco-darkGold text-artdeco-black px-12 py-6 text-lg font-normal transition-all duration-500 border border-artdeco-gold hover:border-artdeco-darkGold rounded-none min-w-[220px] hover:scale-105 transform font-montserrat tracking-wide uppercase"
               >
                 <span className="relative z-10 flex items-center gap-3">
                   {hero.cta}
@@ -205,7 +206,7 @@ const HeroSection = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => window.open(`tel:0673981638`, '_self')}
-                className="group relative overflow-hidden border-2 border-artdeco-gold bg-transparent text-artdeco-gold hover:bg-artdeco-gold hover:text-artdeco-black px-12 py-6 text-lg font-medium transition-all duration-500 rounded-none min-w-[220px] hover:scale-105 transform font-montserrat tracking-wide uppercase"
+                className="group relative overflow-hidden border border-artdeco-gold bg-transparent text-artdeco-gold hover:bg-artdeco-gold hover:text-artdeco-black px-12 py-6 text-lg font-normal transition-all duration-500 rounded-none min-w-[220px] hover:scale-105 transform font-montserrat tracking-wide uppercase"
               >
                 <span className="relative z-10 flex items-center gap-3">
                   <svg className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
