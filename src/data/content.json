@@ -11,17 +11,20 @@
     {
       "icon": "image",
       "title": "Coiffure Créative",
-      "description": "Des coupes tendances et personnalisées pour révéler votre style unique et votre personnalité."
+      "description": "Des coupes tendances et personnalisées pour révéler votre style unique et votre personnalité.",
+      "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=300&fit=crop&crop=center"
     },
     {
       "icon": "star",
       "title": "Produits Premium",
-      "description": "Nous utilisons exclusivement des produits haut de gamme pour la santé de vos cheveux."
+      "description": "Nous utilisons exclusivement des produits haut de gamme pour la santé de vos cheveux.",
+      "image": "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=400&h=300&fit=crop&crop=center"
     },
     {
       "icon": "users",
       "title": "Équipe Experte",
-      "description": "Des coiffeurs passionnés et formés aux dernières tendances pour vous conseiller."
+      "description": "Des coiffeurs passionnés et formés aux dernières tendances pour vous conseiller.",
+      "image": "https://images.unsplash.com/photo-1559599101-f09722fb4948?w=400&h=300&fit=crop&crop=center"
     }
   ],
   "offers": [
@@ -37,7 +40,8 @@
         "Diagnostic capillaire",
         "Café ou thé offert"
       ],
-      "popular": false
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400&h=300&fit=crop&crop=center"
     },
     {
       "name": "Forfait Transformation",
@@ -52,7 +56,8 @@
         "Produits d'entretien offerts",
         "Rendez-vous de suivi inclus"
       ],
-      "popular": true
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&h=300&fit=crop&crop=center"
     }
   ],
   "testimonials": [
@@ -82,14 +87,15 @@
     "name": "Notre Équipe Passionnée",
     "title": "Spécialistes de la beauté capillaire",
     "description": "Avec plus de 10 ans d'expérience, notre équipe de coiffeurs passionnés vous accompagne pour révéler votre beauté naturelle. Nous allions techniques modernes et écoute personnalisée pour des résultats exceptionnels.",
-    "experience": "10+ ans d'expérience",
-    "clients": "500+ clients satisfaits",
-    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=500&fit=crop&crop=center"
+    "experience": "10+",
+    "clients": "500+",
+    "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400&h=500&fit=crop&crop=center"
   },
   "contact": {
     "phone": "06 73 98 16 38",
     "email": "contact@saloncoiffure.com",
     "location": "123 Rue de la Beauté, 75001 Paris",
-    "zone": "Ouvert du mardi au samedi"
+    "zone": "Ouvert du mardi au samedi",
+    "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop&crop=center"
   }
 }
