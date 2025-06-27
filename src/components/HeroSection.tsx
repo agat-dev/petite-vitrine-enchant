@@ -241,10 +241,6 @@ const HeroSection = () => {
               {hero.title}
             </h1>
             
-            <div className="flex justify-center items-center mb-8">
-              <div className="w-32 h-px bg-artdeco-gold"></div>
-            </div>
-
             <p className="font-cormorant text-xl md:text-2xl text-artdeco-cream/90 mb-12 leading-relaxed max-w-3xl mx-auto italic">
               {hero.subtitle}
             </p>
