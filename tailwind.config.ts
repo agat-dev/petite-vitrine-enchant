@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -26,7 +25,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#E8B4B8',
+					DEFAULT: '#D4B5A0',
 					foreground: '#000000'
 				},
 				secondary: {
@@ -46,9 +45,9 @@ export default {
 					foreground: '#ffffff'
 				},
 				luxury: {
-					gold: '#E8B4B8',
-					darkGold: '#D89BA0',
-					lightGold: '#F2E1E3',
+					gold: '#D4B5A0',
+					darkGold: '#C5A690',
+					lightGold: '#E8DDD6',
 					black: '#0A0A0A',
 					charcoal: '#1C1C1C',
 					cream: '#FFFEF7',
@@ -56,9 +55,9 @@ export default {
 					platinum: '#E8E6E0'
 				},
 				artdeco: {
-					gold: '#E8B4B8',
-					darkGold: '#D89BA0',
-					bronze: '#E8B4B8',
+					gold: '#D4B5A0',
+					darkGold: '#C5A690',
+					bronze: '#D4B5A0',
 					black: '#0A0A0A',
 					charcoal: '#1C1C1C',
 					ivory: '#FFFFF0',
@@ -161,10 +160,10 @@ export default {
 				},
 				'glow': {
 					'0%, 100%': {
-						textShadow: '0 0 5px #E8B4B8, 0 0 10px #E8B4B8, 0 0 15px #E8B4B8'
+						textShadow: '0 0 5px #D4B5A0, 0 0 10px #D4B5A0, 0 0 15px #D4B5A0'
 					},
 					'50%': {
-						textShadow: '0 0 10px #E8B4B8, 0 0 20px #E8B4B8, 0 0 30px #E8B4B8'
+						textShadow: '0 0 10px #D4B5A0, 0 0 20px #D4B5A0, 0 0 30px #D4B5A0'
 					}
 				},
 				'scroll-slow': {
@@ -197,17 +196,17 @@ export default {
 			},
 			backgroundImage: {
 				'artdeco-pattern': `
-					radial-gradient(circle at 25% 25%, #E8B4B8 2px, transparent 2px),
-					radial-gradient(circle at 75% 75%, #E8B4B8 2px, transparent 2px),
-					linear-gradient(45deg, transparent 49%, #E8B4B8 49%, #E8B4B8 51%, transparent 51%)
+					radial-gradient(circle at 25% 25%, #D4B5A0 2px, transparent 2px),
+					radial-gradient(circle at 75% 75%, #D4B5A0 2px, transparent 2px),
+					linear-gradient(45deg, transparent 49%, #D4B5A0 49%, #D4B5A0 51%, transparent 51%)
 				`,
 				'artdeco-lines': `
 					repeating-linear-gradient(
 						90deg,
 						transparent,
 						transparent 10px,
-						#E8B4B8 10px,
-						#E8B4B8 11px
+						#D4B5A0 10px,
+						#D4B5A0 11px
 					)
 				`
 			}
@@ -215,4 +214,3 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-
