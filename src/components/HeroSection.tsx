@@ -19,28 +19,28 @@ const HeroSection = () => {
         <div className="grid grid-cols-2 gap-2 h-full py-4">
           {/* Colonne 1 */}
           <div className="space-y-2">
-            <div className="h-40 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-40 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&h=160&fit=crop"
                 alt="Salon de coiffure moderne"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-56 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-56 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=200&h=224&fit=crop"
                 alt="Coiffure créative"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-32 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-32 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=200&h=128&fit=crop"
                 alt="Coupe de cheveux"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-48 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-48 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=200&h=192&fit=crop"
                 alt="Brushing professionnel"
@@ -51,28 +51,28 @@ const HeroSection = () => {
           
           {/* Colonne 2 */}
           <div className="space-y-2 pt-8">
-            <div className="h-28 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-28 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=200&h=112&fit=crop"
                 alt="Produits capillaires" 
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-52 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-52 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=200&h=208&fit=crop"
                 alt="Coloration cheveux"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-36 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-36 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1559599101-f09722fb4948?w=200&h=144&fit=crop"
                 alt="Shampooing soin"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-44 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-44 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=200&h=176&fit=crop"
                 alt="Coiffure tendance"
@@ -88,28 +88,28 @@ const HeroSection = () => {
         <div className="grid grid-cols-2 gap-2 h-full py-4">
           {/* Colonne 1 */}
           <div className="space-y-2 pt-12">
-            <div className="h-48 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-48 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=200&h=192&fit=crop"
                 alt="Salon élégant"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-32 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-32 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=128&fit=crop"
                 alt="Outils de coiffure"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-40 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-40 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=200&h=160&fit=crop"
                 alt="Femme cheveux bouclés"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-36 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-36 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=200&h=144&fit=crop"
                 alt="Détente salon"
@@ -120,28 +120,28 @@ const HeroSection = () => {
           
           {/* Colonne 2 */}
           <div className="space-y-2">
-            <div className="h-36 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-36 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=200&h=144&fit=crop"
                 alt="Coiffure mariage"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-52 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-52 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=200&h=208&fit=crop"
                 alt="Cheveux longs brillants"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-40 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-40 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=160&fit=crop"
                 alt="Accessoires coiffure"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-28 bg-luxury-pearl rounded-lg overflow-hidden shadow-lg">
+            <div className="h-28 bg-luxury-pearl rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=200&h=112&fit=crop"
                 alt="Ambiance salon"
@@ -156,17 +156,17 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 z-10 relative">
         <div className="max-w-4xl mx-auto text-center px-8 md:px-16 lg:px-24">
           <div className="animate-fade-in">
-            <h1 className="font-montserrat font-bold text-4xl md:text-5xl lg:text-6xl text-luxury-obsidian leading-tight mb-6 drop-shadow-lg">
+            <h1 className="font-montserrat font-bold text-4xl md:text-5xl lg:text-6xl text-luxury-obsidian leading-tight mb-6">
               {hero.title}
             </h1>
-            <p className="font-source-sans text-lg md:text-xl text-secondary/80 mb-8 leading-relaxed max-w-2xl mx-auto drop-shadow-md">
+            <p className="font-source-sans text-lg md:text-xl text-secondary/80 mb-8 leading-relaxed max-w-2xl mx-auto">
               {hero.subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button 
                 onClick={scrollToOffers}
                 size="lg"
-                className="group relative overflow-hidden bg-gradient-to-r from-luxury-gold via-luxury-gold to-amber-400 hover:from-amber-400 hover:via-luxury-gold hover:to-luxury-gold text-luxury-obsidian px-10 py-4 text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-500 border-0 rounded-full min-w-[200px] hover:scale-105 transform"
+                className="group relative overflow-hidden bg-gradient-to-r from-luxury-gold via-luxury-gold to-amber-400 hover:from-amber-400 hover:via-luxury-gold hover:to-luxury-gold text-luxury-obsidian px-10 py-4 text-lg font-semibold transition-all duration-500 border-0 rounded-full min-w-[200px] hover:scale-105 transform"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   {hero.cta}
@@ -180,7 +180,7 @@ const HeroSection = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => window.open(`tel:0673981638`, '_self')}
-                className="group relative overflow-hidden border-2 border-luxury-obsidian/20 backdrop-blur-sm bg-white/10 text-luxury-obsidian hover:bg-luxury-obsidian hover:text-white px-10 py-4 text-lg font-medium shadow-xl hover:shadow-2xl transition-all duration-500 rounded-full min-w-[200px] hover:scale-105 transform hover:border-luxury-obsidian"
+                className="group relative overflow-hidden border-2 border-luxury-obsidian/20 backdrop-blur-sm bg-white/10 text-luxury-obsidian hover:bg-luxury-obsidian hover:text-white px-10 py-4 text-lg font-medium transition-all duration-500 rounded-full min-w-[200px] hover:scale-105 transform hover:border-luxury-obsidian"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <svg className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
