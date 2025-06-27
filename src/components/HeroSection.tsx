@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
@@ -243,13 +242,7 @@ const HeroSection = () => {
             </h1>
             
             <div className="flex justify-center items-center mb-8">
-              <div className="w-24 h-px bg-gradient-to-l from-artdeco-gold to-transparent"></div>
-              {/* Forme géométrique épurée - losange stylisé */}
-              <div className="relative mx-3">
-                <div className="w-4 h-4 border border-artdeco-gold transform rotate-45 bg-transparent"></div>
-                <div className="absolute top-1/2 left-1/2 w-0.5 h-0.5 rounded-full bg-artdeco-gold transform -translate-x-1/2 -translate-y-1/2"></div>
-              </div>
-              <div className="w-24 h-px bg-gradient-to-r from-artdeco-gold to-transparent"></div>
+              <div className="w-32 h-px bg-artdeco-gold"></div>
             </div>
 
             <p className="font-cormorant text-xl md:text-2xl text-artdeco-cream/90 mb-12 leading-relaxed max-w-3xl mx-auto italic">
