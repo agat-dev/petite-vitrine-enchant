@@ -2,28 +2,28 @@
 const ShowcaseSection = () => {
   const showcaseItems = [
     {
-      title: "Atelier de Céramique",
-      category: "Site vitrine + E-commerce",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-      description: "Site moderne avec galerie et boutique en ligne"
-    },
-    {
-      title: "Menuiserie Artisanale",
-      category: "Site vitrine professionnel",
-      image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
-      description: "Présentation élégante du savoir-faire"
-    },
-    {
-      title: "Salon de Coiffure",
-      category: "Site + Réservation en ligne",
+      title: "Coupe Moderne",
+      category: "Coiffure Femme",
       image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop",
-      description: "Design moderne avec système de rendez-vous"
+      description: "Coupe tendance avec dégradé personnalisé"
     },
     {
-      title: "Boulangerie Artisanale",
-      category: "Site vitrine + Blog",
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop",
-      description: "Mise en valeur des produits et actualités"
+      title: "Coloration Éclatante",
+      category: "Couleur & Mèches",
+      image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=300&fit=crop",
+      description: "Coloration naturelle aux reflets dorés"
+    },
+    {
+      title: "Coiffure de Mariage",
+      category: "Événements Spéciaux",
+      image: "https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=400&h=300&fit=crop",
+      description: "Coiffure élégante pour votre jour J"
+    },
+    {
+      title: "Soin Profond",
+      category: "Soins Capillaires",
+      image: "https://images.unsplash.com/photo-1559599101-f09722fb4948?w=400&h=300&fit=crop",
+      description: "Traitement réparateur pour cheveux abîmés"
     }
   ];
 
@@ -32,10 +32,10 @@ const ShowcaseSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-montserrat font-bold text-3xl md:text-4xl text-anthracite mb-4">
-            Ils nous font confiance
+            Nos Réalisations
           </h2>
           <p className="font-source-sans text-lg text-anthracite/70 max-w-2xl mx-auto">
-            Découvrez quelques réalisations qui illustrent notre approche personnalisée
+            Découvrez quelques-unes de nos créations qui illustrent notre savoir-faire
           </p>
         </div>
 

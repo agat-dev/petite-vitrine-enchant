@@ -1,95 +1,95 @@
 
 {
   "hero": {
-    "title": "Votre artisanat mérite d'être vu",
-    "subtitle": "Spécialiste du marketing digital pour artisans, je gère votre présence en ligne de A à Z.",
-    "cta": "Découvrir mes packs",
-    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop&crop=center",
-    "alt": "Artisan travaillant sur son ordinateur"
+    "title": "Votre beauté mérite d'être révélée",
+    "subtitle": "Salon de coiffure moderne et chaleureux, nous créons des looks uniques qui vous ressemblent.",
+    "cta": "Prendre rendez-vous",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&h=400&fit=crop&crop=center",
+    "alt": "Salon de coiffure moderne"
   },
   "pillars": [
     {
       "icon": "image",
-      "title": "Design Professionnel",
-      "description": "Des sites vitrines modernes et responsive qui reflètent votre savoir-faire artisanal."
+      "title": "Coiffure Créative",
+      "description": "Des coupes tendances et personnalisées pour révéler votre style unique et votre personnalité."
     },
     {
       "icon": "star",
-      "title": "SEO Optimisé",
-      "description": "Référencement naturel pour être trouvé par vos clients locaux sur Google."
+      "title": "Produits Premium",
+      "description": "Nous utilisons exclusivement des produits haut de gamme pour la santé de vos cheveux."
     },
     {
       "icon": "users",
-      "title": "Accompagnement",
-      "description": "Formation et suivi personnalisé pour que vous maîtrisiez votre présence en ligne."
+      "title": "Équipe Experte",
+      "description": "Des coiffeurs passionnés et formés aux dernières tendances pour vous conseiller."
     }
   ],
   "offers": [
     {
-      "name": "Pack Start",
-      "price": "890€",
-      "description": "Parfait pour débuter votre présence en ligne",
+      "name": "Forfait Découverte",
+      "price": "65€",
+      "description": "Parfait pour découvrir notre savoir-faire",
       "features": [
-        "Site vitrine 5 pages",
-        "Design responsive",
-        "Optimisation SEO de base",
-        "Formulaire de contact",
-        "Formation à la gestion",
-        "Support 3 mois"
+        "Shampoing + soin",
+        "Coupe personnalisée",
+        "Brushing professionnel",
+        "Conseil styling",
+        "Diagnostic capillaire",
+        "Café ou thé offert"
       ],
       "popular": false
     },
     {
-      "name": "Pack Business",
-      "price": "1590€",
-      "description": "Solution complète pour développer votre visibilité",
+      "name": "Forfait Transformation",
+      "price": "120€",
+      "description": "L'expérience complète pour un nouveau look",
       "features": [
-        "Site vitrine 8 pages",
-        "Design premium personnalisé",
-        "SEO avancé + blog",
-        "Galerie de réalisations",
-        "Intégration réseaux sociaux",
-        "Formation complète",
-        "Support 6 mois"
+        "Consultation personnalisée",
+        "Shampoing + soin profond",
+        "Coupe + coloration",
+        "Brushing ou coiffage",
+        "Conseils d'entretien",
+        "Produits d'entretien offerts",
+        "Rendez-vous de suivi inclus"
       ],
       "popular": true
     }
   ],
   "testimonials": [
     {
-      "name": "Marie L.",
-      "business": "Coiffeuse à domicile",
-      "text": "Grâce à mon nouveau site, j'ai doublé ma clientèle en 3 mois. Le suivi est exceptionnel !",
+      "name": "Sophie M.",
+      "business": "Cliente fidèle",
+      "text": "Équipe formidable ! Elles ont transformé mes cheveux et je me sens rayonnante à chaque visite.",
       "rating": 5,
       "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face"
     },
     {
-      "name": "Pierre M.",
-      "business": "Menuisier",
-      "text": "Un travail de qualité, des conseils précieux. Mon site reflète parfaitement mon métier.",
-      "rating": 5,
-      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face"
-    },
-    {
-      "name": "Sophie D.",
-      "business": "Céramiste",
-      "text": "Formation claire, résultats rapides. Je recommande vivement !",
+      "name": "Claire L.",
+      "business": "Nouvelle cliente",
+      "text": "Accueil chaleureux et professionnalisme. Ma coupe est exactement ce que je voulais !",
       "rating": 5,
       "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face"
+    },
+    {
+      "name": "Emma D.",
+      "business": "Cliente régulière",
+      "text": "Salon moderne, ambiance relaxante. Je recommande vivement pour la qualité du service !",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop&crop=face"
     }
   ],
   "about": {
-    "name": "Votre Expert Marketing Digital",
-    "title": "Spécialisé dans l'accompagnement des artisans",
-    "description": "Passionné par l'artisanat français, j'aide les créateurs à développer leur activité grâce au digital. Mon approche personnalisée vous garantit une présence en ligne qui vous ressemble.",
-    "experience": "5+ ans d'expérience",
-    "clients": "150+ artisans accompagnés",
-    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=500&fit=crop&crop=center"
+    "name": "Notre Équipe Passionnée",
+    "title": "Spécialistes de la beauté capillaire",
+    "description": "Avec plus de 10 ans d'expérience, notre équipe de coiffeurs passionnés vous accompagne pour révéler votre beauté naturelle. Nous allions techniques modernes et écoute personnalisée pour des résultats exceptionnels.",
+    "experience": "10+ ans d'expérience",
+    "clients": "500+ clients satisfaits",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=500&fit=crop&crop=center"
   },
   "contact": {
     "phone": "06 73 98 16 38",
-    "email": "contact@lapetitevitrine.com",
-    "location": "Trizac, France",
-    "zone": "Intervention dans toute la France"
+    "email": "contact@saloncoiffure.com",
+    "location": "123 Rue de la Beauté, 75001 Paris",
+    "zone": "Ouvert du mardi au samedi"
   }
 }

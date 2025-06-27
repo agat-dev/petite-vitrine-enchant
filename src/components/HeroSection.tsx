@@ -21,29 +21,29 @@ const HeroSection = () => {
           <div className="space-y-2">
             <div className="h-40 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=160&fit=crop&crop=face"
-                alt="Artisan"
+                src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&h=160&fit=crop"
+                alt="Salon de coiffure moderne"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-56 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=200&h=224&fit=crop"
-                alt="Travail artisanal"
+                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=200&h=224&fit=crop"
+                alt="Coiffure créative"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-32 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=128&fit=crop&crop=face"
-                alt="Menuisier"
+                src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=200&h=128&fit=crop"
+                alt="Coupe de cheveux"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-48 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=192&fit=crop"
-                alt="Artisan au travail"
+                src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=200&h=192&fit=crop"
+                alt="Brushing professionnel"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -53,29 +53,29 @@ const HeroSection = () => {
           <div className="space-y-2 pt-8">
             <div className="h-28 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=112&fit=crop&crop=face"
-                alt="Céramiste" 
+                src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=200&h=112&fit=crop"
+                alt="Produits capillaires" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-52 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=200&h=208&fit=crop&crop=face"
-                alt="Coiffeuse"
+                src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=200&h=208&fit=crop"
+                alt="Coloration cheveux"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-36 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=144&fit=crop"
-                alt="Atelier artisanal"
+                src="https://images.unsplash.com/photo-1559599101-f09722fb4948?w=200&h=144&fit=crop"
+                alt="Shampooing soin"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-44 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=176&fit=crop"
-                alt="Création artisanale"
+                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=200&h=176&fit=crop"
+                alt="Coiffure tendance"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -90,29 +90,29 @@ const HeroSection = () => {
           <div className="space-y-2 pt-12">
             <div className="h-48 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=200&h=192&fit=crop"
-                alt="Ordinateur de travail"
+                src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=200&h=192&fit=crop"
+                alt="Salon élégant"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-32 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=200&h=128&fit=crop"
-                alt="Laptop"
+                src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=128&fit=crop"
+                alt="Outils de coiffure"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-40 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=200&h=160&fit=crop"
-                alt="Femme avec laptop"
+                src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=200&h=160&fit=crop"
+                alt="Femme cheveux bouclés"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-36 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=200&h=144&fit=crop"
-                alt="Réunion créative"
+                src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=200&h=144&fit=crop"
+                alt="Détente salon"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -122,29 +122,29 @@ const HeroSection = () => {
           <div className="space-y-2">
             <div className="h-36 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1500673922987-e212871fec22?w=200&h=144&fit=crop"
-                alt="Ambiance créative"
+                src="https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=200&h=144&fit=crop"
+                alt="Coiffure mariage"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-52 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=200&h=208&fit=crop"
-                alt="Nature inspiration"
+                src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=200&h=208&fit=crop"
+                alt="Cheveux longs brillants"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-40 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=200&h=160&fit=crop"
-                alt="Architecture moderne"
+                src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=160&fit=crop"
+                alt="Accessoires coiffure"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-28 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=200&h=112&fit=crop"
-                alt="Business moderne"
+                src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=200&h=112&fit=crop"
+                alt="Ambiance salon"
                 className="w-full h-full object-cover"
               />
             </div>
