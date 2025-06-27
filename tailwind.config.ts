@@ -47,11 +47,22 @@ export default {
 				},
 				luxury: {
 					gold: '#D4AF37',
-					beige: '#F5F2E8',
-					champagne: '#F7E7CE',
-					platinum: '#E5E4E2',
-					obsidian: '#0B0B0B',
-					pearl: '#F8F6F0'
+					darkGold: '#B8941F',
+					lightGold: '#F2E7B3',
+					black: '#0A0A0A',
+					charcoal: '#1C1C1C',
+					cream: '#FFFEF7',
+					pearl: '#F8F6F0',
+					platinum: '#E8E6E0'
+				},
+				artdeco: {
+					gold: '#D4AF37',
+					darkGold: '#B8941F',
+					bronze: '#CD7F32',
+					black: '#0A0A0A',
+					charcoal: '#1C1C1C',
+					ivory: '#FFFFF0',
+					cream: '#F5F5DC'
 				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
@@ -83,6 +94,9 @@ export default {
 			fontFamily: {
 				'montserrat': ['Montserrat', 'sans-serif'],
 				'source-sans': ['Source Sans Pro', 'sans-serif'],
+				'playfair': ['Playfair Display', 'serif'],
+				'cinzel': ['Cinzel', 'serif'],
+				'cormorant': ['Cormorant Garamond', 'serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -143,6 +157,14 @@ export default {
 					'100%': {
 						backgroundPosition: '200% 0'
 					}
+				},
+				'glow': {
+					'0%, 100%': {
+						textShadow: '0 0 5px #D4AF37, 0 0 10px #D4AF37, 0 0 15px #D4AF37'
+					},
+					'50%': {
+						textShadow: '0 0 10px #D4AF37, 0 0 20px #D4AF37, 0 0 30px #D4AF37'
+					}
 				}
 			},
 			animation: {
@@ -151,12 +173,24 @@ export default {
 				'fade-in': 'fade-in 0.6s ease-out',
 				'slide-in-left': 'slide-in-left 0.6s ease-out',
 				'slide-in-right': 'slide-in-right 0.6s ease-out',
-				'shimmer': 'shimmer 2s linear infinite'
+				'shimmer': 'shimmer 2s linear infinite',
+				'glow': 'glow 2s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'luxury-gradient': 'linear-gradient(135deg, #D4AF37 0%, #F7E7CE 50%, #F5F2E8 100%)',
-				'dark-luxury': 'linear-gradient(135deg, #0B0B0B 0%, #1A1A1A 50%, #2a2a2a 100%)',
-				'shimmer': 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.2), transparent)'
+				'artdeco-pattern': `
+					radial-gradient(circle at 25% 25%, #D4AF37 2px, transparent 2px),
+					radial-gradient(circle at 75% 75%, #D4AF37 2px, transparent 2px),
+					linear-gradient(45deg, transparent 49%, #D4AF37 49%, #D4AF37 51%, transparent 51%)
+				`,
+				'artdeco-lines': `
+					repeating-linear-gradient(
+						90deg,
+						transparent,
+						transparent 10px,
+						#D4AF37 10px,
+						#D4AF37 11px
+					)
+				`
 			}
 		}
 	},
