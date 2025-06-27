@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import content from '@/data/content.json';
 
@@ -171,7 +170,7 @@ const HeroSection = () => {
               <div className="w-32 h-px bg-gradient-to-r from-transparent via-artdeco-gold to-transparent"></div>
             </div>
 
-            <h1 className="font-playfair font-bold text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-6 tracking-wide">
+            <h1 className="font-poiret font-normal text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-6 tracking-wide">
               <span className="block mb-2 text-artdeco-cream font-cinzel text-lg md:text-xl font-normal tracking-[0.3em] uppercase">
                 Excellence & Raffinement
               </span>

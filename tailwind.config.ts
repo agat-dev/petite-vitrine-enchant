@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -96,7 +95,8 @@ export default {
 				'source-sans': ['Source Sans Pro', 'sans-serif'],
 				'playfair': ['Playfair Display', 'serif'],
 				'cinzel': ['Cinzel', 'serif'],
-				'cormorant': ['Cormorant Garamond', 'serif']
+				'cormorant': ['Cormorant Garamond', 'serif'],
+				'poiret': ['Poiret One', 'cursive']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
