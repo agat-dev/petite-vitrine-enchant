@@ -15,15 +15,18 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full bg-artdeco-black/95 backdrop-blur-sm border-b border-artdeco-gold/20 z-50">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 md:py-4 py-0">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-artdeco-gold border border-artdeco-gold transform rotate-45 flex items-center justify-center">
-              <span className="text-artdeco-black font-cinzel font-bold text-lg transform -rotate-45">LV</span>
+            <div className="w-20 h-20 bg-artdeco-gold border border-artdeco-gold transform rotate-45 flex items-center justify-center">
+              <span className="text-artdeco-black font-cinzel font-bold text-lg transform -rotate-45">
+                <img 
+                  src="/logo.png"
+                  alt="Logo"
+                  className="w-20 h-20 transform -rotate-45"
+                />
+              </span>
             </div>
-            <span className="font-cinzel font-medium text-xl text-artdeco-cream tracking-wide">
-              La Petite Vitrine
-            </span>
           </div>
 
           {/* Desktop Menu */}
