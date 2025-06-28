@@ -18,12 +18,12 @@ const Header = () => {
       <div className="container mx-auto px-4 md:py-4 py-0">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <div className="w-20 h-20 bg-artdeco-gold border border-artdeco-gold transform rotate-45 flex items-center justify-center">
-              <span className="text-artdeco-black font-cinzel font-bold text-lg transform -rotate-45">
+            <div className="w-20 h-20 flex items-center justify-center">
+              <span className="text-artdeco-black font-cinzel font-bold text-lg">
                 <img 
                   src="/logo.png"
                   alt="Logo"
-                  className="w-20 h-20 transform -rotate-45"
+                  className="w-20 h-20"
                 />
               </span>
             </div>
