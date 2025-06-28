@@ -33,31 +33,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('accueil')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Accueil
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('offres')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Tarifs
             </button>
             <button 
               onClick={() => scrollToSection('realisations')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Réalisations
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant tracking-wide"
+              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Contact
             </button>
@@ -86,31 +86,31 @@ const Header = () => {
             <div className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('accueil')}
-                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret text-left tracking-wide"
               >
                 Accueil
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret text-left tracking-wide"
               >
                 Services
               </button>
               <button 
                 onClick={() => scrollToSection('offres')}
-                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret text-left tracking-wide"
               >
                 Tarifs
               </button>
               <button 
                 onClick={() => scrollToSection('realisations')}
-                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret text-left tracking-wide"
               >
                 Réalisations
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-cormorant text-left tracking-wide"
+                className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret text-left tracking-wide"
               >
                 Contact
               </button>
