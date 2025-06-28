@@ -135,7 +135,7 @@ const HeroSection = () => {
             </div>
             <div className="h-32 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
-                src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=128&fit=crop"
+                src="https://images.unsplash.com/photo-1638064432601-18b99cb31acb?w=200&h=128&fit=crop"
                 alt="Outils de coiffure"
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
@@ -149,7 +149,7 @@ const HeroSection = () => {
             </div>
             <div className="h-36 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
-                src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=200&h=144&fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1661326329898-65ac15c9208b?w=200&h=144&fit=crop"
                 alt="Détente salon"
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
@@ -164,7 +164,7 @@ const HeroSection = () => {
             </div>
             <div className="h-32 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
-                src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=128&fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1676677522880-639b99b1f27b?w=200&h=128&fit=crop"
                 alt="Outils de coiffure"
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
@@ -175,7 +175,7 @@ const HeroSection = () => {
           <div className="space-y-2 animate-scroll-slow-reverse">
             <div className="h-36 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
-                src="https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=200&h=144&fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1677616799562-d812125a465d?w=200&h=144&fit=crop"
                 alt="Coiffure mariage"
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />
@@ -189,7 +189,7 @@ const HeroSection = () => {
             </div>
             <div className="h-40 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
-                src="https://images.unsplash.com/photo-1562322140-8198e7f9fe5f?w=200&h=160&fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1669675935887-fdfb81d37cc7?w=200&h=160&fit=crop"
                 alt="Accessoires coiffure"
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />

@@ -1,4 +1,4 @@
-
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
@@ -11,17 +11,24 @@ import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen font-source-sans">
-      <Header />
-      <HeroSection />
-      <ServicesSection />
-      <OffersSection />
-      <ShowcaseSection />
-      <AboutSection />
-      <TestimonialsSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <>
+      <Helmet>
+        <title>Your Page Title</title>
+        <meta name="description" content="Your page description" />
+        <meta name="keywords" content="hairdresser, salon, coiffeur" />
+      </Helmet>
+      <div className="min-h-screen font-source-sans">
+        <Header />
+        <HeroSection />
+        <ServicesSection />
+        <OffersSection />
+        <ShowcaseSection />
+        <AboutSection />
+        <TestimonialsSection />
+        <ContactSection />
+        <Footer />
+      </div>
+    </>
   );
 };
 

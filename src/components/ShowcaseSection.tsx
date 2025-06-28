@@ -4,7 +4,7 @@ const ShowcaseSection = () => {
     {
       title: "Coupe Moderne",
       category: "Coiffure Femme",
-      image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1670797904283-072ad4dde22c?w=400&h=300&fit=crop",
       description: "Coupe tendance avec dégradé personnalisé"
     },
     {
@@ -16,13 +16,13 @@ const ShowcaseSection = () => {
     {
       title: "Coiffure de Mariage",
       category: "Événements Spéciaux",
-      image: "https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1606251706444-d069cd266189?w=400&h=300&fit=crop",
       description: "Coiffure élégante pour votre jour J"
     },
     {
       title: "Soin Profond",
       category: "Soins Capillaires",
-      image: "https://images.unsplash.com/photo-1559599101-f09722fb4948?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1648313143853-aa913f6ad44a?w=400&h=300&fit=crop",
       description: "Traitement réparateur pour cheveux abîmés"
     }
   ];
