@@ -70,7 +70,7 @@ const ContactSection = () => {
             Discutons de votre projet
           </h2>
           <p className="font-cormorant text-xl text-artdeco-cream/80 max-w-2xl mx-auto italic leading-relaxed">
-            Un projet en tête ? Une question ? Contactons-nous pour un échange personnalisé
+            Envie d'un nouveau style ? Une question ? Contactons-nous pour un échange personnalisé
           </p>
         </div>
 

@@ -204,7 +204,7 @@ const HeroSection = () => {
             {/* Duplication pour l'effet infini */}
             <div className="h-36 bg-artdeco-charcoal rounded-lg overflow-hidden border border-artdeco-gold/20">
               <img 
-                src="https://images.unsplash.com/photo-1595475038665-d7e8395f3fb2?w=200&h=144&fit=crop"
+                src="https://images.unsplash.com/photo-1700760934268-8aa0ef52ce0a?w=200&h=144&fit=crop"
                 alt="Coiffure mariage"
                 className="w-full h-full object-cover filter grayscale contrast-125"
               />

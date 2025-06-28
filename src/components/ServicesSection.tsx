@@ -40,10 +40,10 @@ const ServicesSection = () => {
           </div>
 
           <h2 className="font-cinzel font-normal text-3xl md:text-4xl text-artdeco-cream mb-6 tracking-wide">
-            Une approche complète pour votre réussite
+            Coffure et Soins
           </h2>
           <p className="font-cormorant text-xl text-artdeco-cream/80 max-w-2xl mx-auto italic leading-relaxed">
-            Trois piliers essentiels pour développer votre activité artisanale sur le web
+            Découvrez nos piliers d'excellence qui font de notre salon un lieu unique pour sublimer votre beauté naturelle.
           </p>
         </div>
 

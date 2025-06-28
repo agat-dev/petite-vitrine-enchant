@@ -64,7 +64,7 @@ const AboutSection = () => {
 
             <div className="bg-artdeco-black/50 backdrop-blur-sm p-6 border-l-4 border-artdeco-gold">
               <p className="font-cormorant text-artdeco-cream italic text-lg leading-relaxed">
-                "Mon objectif est simple : vous donner tous les outils pour que votre artisanat rayonne sur le web, sans complexité technique."
+                "Notre mission est de révéler le potentiel client par la création de coiffures uniques. Notre expertise en visagisme et notre passion pour la coiffure nous permettent de transformer chaque rendez-vous en une expérience inoubliable."
               </p>
             </div>
           </div>

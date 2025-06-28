@@ -20,21 +20,21 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 bg-artdeco-gold border border-artdeco-gold transform rotate-45 flex items-center justify-center">
-                <span className="text-artdeco-black font-cinzel font-bold text-lg transform -rotate-45">LV</span>
+                <span className="text-artdeco-black font-cinzel font-bold text-lg transform -rotate-45">AC</span>
               </div>
               <span className="font-cinzel font-medium text-xl text-artdeco-cream tracking-wide">
-                La Petite Vitrine
+                Artisan Coiffeur
               </span>
             </div>
             <p className="font-cormorant text-artdeco-cream/80 mb-6 leading-relaxed italic">
-              Spécialiste du marketing digital pour artisans. Nous créons des sites internet professionnels et gérons votre présence en ligne pour développer votre activité.
+              Salon de coiffure d'exception au cœur de Paris. Nos coiffeurs-visagistes passionnés révèlent votre beauté naturelle avec expertise et créativité depuis plus de 10 ans.
             </p>
             <div className="space-y-2">
               <div className="font-cormorant text-artdeco-cream/80">
-                <strong className="text-artdeco-gold">Zone d'intervention :</strong> {contact.zone}
+                <strong className="text-artdeco-gold">Horaires :</strong> {contact.zone}
               </div>
               <div className="font-cormorant text-artdeco-cream/80">
-                <strong className="text-artdeco-gold">Basé à :</strong> {contact.location}
+                <strong className="text-artdeco-gold">Adresse :</strong> {contact.location}
               </div>
             </div>
           </div>
@@ -45,11 +45,11 @@ const Footer = () => {
               Nos Services
             </h3>
             <ul className="space-y-2 font-cormorant text-artdeco-cream/80">
-              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Sites internet vitrine</li>
-              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Référencement SEO</li>
-              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Formation digital</li>
-              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Maintenance et support</li>
-              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Conseils marketing</li>
+              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Coupe femme & homme</li>
+              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Coloration & balayage</li>
+              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Soins capillaires</li>
+              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Brushing & coiffage</li>
+              <li className="hover:text-artdeco-gold transition-colors cursor-pointer">Conseil en image</li>
             </ul>
           </div>
 
@@ -76,7 +76,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="text-sm italic text-artdeco-gold">
-                Réponse sous 24h garantie
+                Prise de rendez-vous rapide
               </div>
             </div>
           </div>
@@ -96,21 +96,21 @@ const Footer = () => {
         <div className="border-t border-artdeco-gold/20 pt-8">
           <div className="text-center mb-6">
             <h4 className="font-cinzel font-medium text-sm text-artdeco-gold/80 mb-2 tracking-wide">
-              Mots-clés : 
+              Spécialités : 
             </h4>
             <p className="font-cormorant text-xs text-artdeco-cream/50 italic">
-              site internet pas cher artisan • pack visibilité artisan • site internet pour coiffeuse • 
-              site vitrine artisan • marketing digital artisan • création site web France • 
-              référencement local artisan • site responsive artisan
+              coiffeur Paris 2ème • salon coiffure rue de la paix • coupe femme homme • coloration balayage • 
+              brushing professionnel • soin capillaire • visagiste Paris • coiffeur tendance • 
+              salon moderne Paris • coiffure créative
             </p>
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-artdeco-cream/60">
             <div className="font-cormorant italic">
-              © {currentYear} La Petite Vitrine. Tous droits réservés.
+              © {currentYear} Artisan Coiffeur Paris. Tous droits réservés.
             </div>
             <div className="font-cormorant mt-2 md:mt-0 italic">
-              Marketing digital spécialisé pour artisans
+              Salon de coiffure d'exception • Paris 2ème
             </div>
           </div>
         </div>
