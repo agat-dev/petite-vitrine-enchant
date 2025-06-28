@@ -33,31 +33,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('accueil')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
+              className="text-artdeco-cream text-lg hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Accueil
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
+              className="text-artdeco-cream text-lg hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('offres')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
+              className="text-artdeco-cream text-lg hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Tarifs
             </button>
             <button 
               onClick={() => scrollToSection('realisations')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
+              className="text-artdeco-cream text-lg hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Réalisations
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-artdeco-cream hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
+              className="text-artdeco-cream text-lg hover:text-artdeco-gold transition-colors font-poiret tracking-wide"
             >
               Contact
             </button>
